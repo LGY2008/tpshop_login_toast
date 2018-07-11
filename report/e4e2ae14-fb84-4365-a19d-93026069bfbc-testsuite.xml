@@ -1,0 +1,40 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1531316877344" stop="1531316929875">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1531316877344" status="passed" stop="1531316929875">
+      <name>TestLogin.test_login_up[args0]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="22752-MainThread"/>
+        <label name="host" value="2XMQY7MAJVGU2PB"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1531316877348" status="passed" stop="1531316913895">
+          <name>开始测试tpshop应用</name>
+          <title>开始测试tpshop应用</title>
+          <attachments>
+            <attachment source="c7a9e909-6184-40e3-b65c-11bf9f3e7b32-attachment.txt" title="点击按钮-》 " type="text/plain"/>
+            <attachment source="eb783e23-910a-4734-8183-f17b742e6cb5-attachment.txt" title="点击按钮-》登录/注册" type="text/plain"/>
+            <attachment source="c1953c72-15e4-49b9-b29c-db9430e038e8-attachment.txt" title="断言toast是否为：请先登录" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1531316913895" status="passed" stop="1531316929875">
+          <name>登录操作</name>
+          <title>登录操作</title>
+          <attachments>
+            <attachment source="291bbcce-ad90-4f64-9e91-134ba3a4d588-attachment.txt" title="输入用户名" type="text/plain"/>
+            <attachment source="59d21d2c-b86e-4224-81ed-c09dd8458b7e-attachment.txt" title="输入密码" type="text/plain"/>
+            <attachment source="1c6048be-1801-42c5-8a5d-0d7b5a119e76-attachment.txt" title="点击登录按钮" type="text/plain"/>
+            <attachment source="d51d9a9f-5f6b-4f19-bbf9-ac4345c890f6-attachment.png" title="图片" type="image/png"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -14,4 +14,6 @@ class BaseInit:
         self.base_find_element(loc).send_keys(text)
     # 定义 toast
     def base_find_toast(self,loc):
-        return self.base_find_element(loc,poll=0.1)
+        return self.base_find_element(loc,poll=0.01)
+    def base_get_screenshot(self,filename):
+        self.driver.get_screenshot_as_file("./image/"+filename+".png")

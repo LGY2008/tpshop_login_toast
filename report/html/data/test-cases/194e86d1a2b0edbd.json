@@ -1,0 +1,142 @@
+{
+  "uid" : "194e86d1a2b0edbd",
+  "name" : "TestLogin.test_login_up[args0]",
+  "fullName" : "test_login.TestLogin.test_login_up[args0]",
+  "historyId" : "7eda5c71115f55e7f8aeee4bda0c6974",
+  "time" : {
+    "start" : 1531316877344,
+    "stop" : 1531316929875,
+    "duration" : 52531
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始测试tpshop应用",
+      "time" : {
+        "start" : 1531316877348,
+        "stop" : 1531316913895,
+        "duration" : 36547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3b54dd5da08ce6f",
+        "name" : "点击按钮-》 ",
+        "source" : "e3b54dd5da08ce6f.txt",
+        "type" : "text/plain",
+        "size" : 7
+      }, {
+        "uid" : "66d990a8a6043d1",
+        "name" : "点击按钮-》登录/注册",
+        "source" : "66d990a8a6043d1.txt",
+        "type" : "text/plain",
+        "size" : 1
+      }, {
+        "uid" : "6f985cbe10c3c3ad",
+        "name" : "断言toast是否为：请先登录",
+        "source" : "6f985cbe10c3c3ad.txt",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "登录操作",
+      "time" : {
+        "start" : 1531316913895,
+        "stop" : 1531316929875,
+        "duration" : 15980
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aa89acda0903e936",
+        "name" : "输入用户名",
+        "source" : "aa89acda0903e936.txt",
+        "type" : "text/plain",
+        "size" : 11
+      }, {
+        "uid" : "141fa8237780ad0a",
+        "name" : "输入密码",
+        "source" : "141fa8237780ad0a.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "bdd8f8bb64a2f039",
+        "name" : "点击登录按钮",
+        "source" : "bdd8f8bb64a2f039.txt",
+        "type" : "text/plain",
+        "size" : 1
+      }, {
+        "uid" : "891527e0949aff2f",
+        "name" : "图片",
+        "source" : "891527e0949aff2f.png",
+        "type" : "image/png",
+        "size" : 619485
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "2XMQY7MAJVGU2PB"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "22752-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login_up[args0]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "194e86d1a2b0edbd.json",
+  "parameterValues" : [ ]
+}
