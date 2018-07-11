@@ -1,27 +1,39 @@
 import os,sys
 
+import allure
 import pytest
 sys.path.append(os.getcwd())
 from base.base_driver import BaseDriver
 from page.login_page import LoginPage
 from base.base_yml import read_yml_data
 class TestLogin():
+    @allure.step(title="开始测试tpshop应用")
     def setup(self):
         # 实例化 PageLogin
         self.login_page=LoginPage(BaseDriver())
         # 点击我的
+        allure.attach('点击按钮-》 ','我的 ')
         self.login_page.page_click_self_btn()
         # 点击 登录/注册
+        allure.attach("点击按钮-》登录/注册"," ")
         self.login_page.page_click_login_reg_link()
         # 获取toast -->请先登录
+        allure.attach("断言toast是否为：请先登录"," ")
         assert "请先登录" in self.login_page.page_get_toast("请先登录")
     # 点击登录
     @pytest.mark.parametrize("args",read_yml_data("login_data","test_login_up"))
+    @allure.step(title="登录操作")
+    @pytest.allure.severity( pytest.allure.severity_level.CRITICAL )
     def test_login_up(self,args):
+        username=args["username"]
+        password=args["password"]
         # 输入用户名
-        self.login_page.page_input_username(args["username"])
+        allure.attach("输入用户名",username)
+        self.login_page.page_input_username(username)
         # 输入密码
-        self.login_page.page_input_password(args["password"])
+        allure.attach("输入密码",password)
+        self.login_page.page_input_password(password)
         # 点击登录
+        allure.attach("点击登录按钮"," ")
         self.login_page.page_click_login_btn()
         print("登录完成！")
