@@ -1,0 +1,4 @@
+test_login_up:
+  -
+    username: "18610453007"
+    password: "123456"
