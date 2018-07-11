@@ -36,4 +36,3 @@ class TestLogin():
         # 点击登录
         allure.attach("点击登录按钮"," ")
         self.login_page.page_click_login_btn()
-        print("登录完成！")
