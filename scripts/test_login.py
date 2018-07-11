@@ -24,3 +24,4 @@ class TestLogin():
         self.login_page.page_input_password(args["password"])
         # 点击登录
         self.login_page.page_click_login_btn()
+        print("登录完成！")
